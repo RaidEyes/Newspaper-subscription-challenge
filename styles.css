@@ -89,14 +89,16 @@ body {
                 & input, .btn {
                 width: 100%;
                 padding-inline: 1rem;
-                padding-block: 0.75rem;
+                padding-block: 1.25rem;
                 border-radius: 8px;
                 cursor: pointer;
               }         
             }
     }
 }
-
+#email-box {
+  border: 3px solid rgba(128, 128, 128, 0.122);
+}
 .email-label {
   color: var(--neutral-dark-grey);
   font-weight: var(--font-weight-700);
@@ -132,6 +134,7 @@ transition: transform ease-in-out 1s, opacity ease-in-out 1s;
   border-radius: 12px;
   color: white;
   background-color: var(--neutral-charcoal-grey);
+  font-weight: var(--font-weight-700);
  }
 }
 /* Styling the error message and input field */
@@ -158,7 +161,6 @@ transition: transform ease-in-out 1s, opacity ease-in-out 1s;
 }
 
 .btn:hover {
-  font-weight: var(--font-weight-700);
   background-image: linear-gradient(-90deg, rgb(240, 147, 162), rgb(246, 170, 116), var(--primary-color));
 }
 /* Add a new animation and class to the modal when button is clicked */
@@ -190,7 +192,7 @@ transition: transform ease-in-out 1s, opacity ease-in-out 1s;
   max-width: 90%;
  }
  .form-header {
-  font-size: 3rem;
+  font-size: 3.5rem;
  }
 picture {
   justify-self: flex-end;
