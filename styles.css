@@ -154,6 +154,7 @@ transition: transform ease-in-out 1s, opacity ease-in-out 1s;
   color: white;
   background-color: var(--neutral-dark-grey);
   border: none;
+  font-weight: var(--font-weight-700);
 }
 
 .btn:hover {
@@ -164,7 +165,6 @@ transition: transform ease-in-out 1s, opacity ease-in-out 1s;
 .modal-animation {
   display: flex;
   animation: modal-animation 1s;
-
 }
 @keyframes modal-animation {
   from {
