@@ -163,7 +163,7 @@ transition: transform ease-in-out 1s, opacity ease-in-out 1s;
 .btn:hover {
   background-image: linear-gradient(-90deg, rgb(240, 147, 162), rgb(246, 170, 116), var(--primary-color));
 }
-/* Add a new animation and class to the modal when button is clicked */
+/* Add a new animation and class to the modal when button is clicked ok */
 .modal-animation {
   display: flex;
   animation: modal-animation 1s;
