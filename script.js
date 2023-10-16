@@ -28,6 +28,7 @@ submitButton.addEventListener("click", async (event) => {
     showError();
     event.preventDefault();
   } else {
+    console.log(inputEmail.value);
     emailName.innerHTML = inputEmail.value; // Put the user email in the modal
     showModal();
     event.preventDefault();
